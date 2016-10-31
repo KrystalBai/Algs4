@@ -8,8 +8,7 @@ public class Exer23 {
        int res = rank(-1, arr); 
        if(new String("+").equals(input)) {
           for(int i = 0; i < arr.length; i++) {
-             if(res != i)
-                System.out.print(arr[i]+" ");
+             if(res != i) System.out.print(arr[i]+" ");
           }
        }
        else if(new String("-").equals(input) && res != -1)
